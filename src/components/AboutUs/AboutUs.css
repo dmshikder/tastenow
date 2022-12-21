@@ -1,0 +1,23 @@
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: justify;
+  gap: 90px;
+}
+
+.about-us > div > img {
+  width: 581px;
+  height: 387px;
+}
+.aboutUs-title {
+  text-align: left;
+  font-size: 48px;
+}
+.sub-title {
+  font-size: 36px;
+}
+
+.span {
+  color: #f72d57;
+}
