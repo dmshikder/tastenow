@@ -1,0 +1,51 @@
+.footer-col-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.logo-footer {
+  font-family: "praise";
+  font-size: 48px;
+  color: #ffffff;
+  width: 174px;
+  height: 77px;
+}
+.social-link {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 174px;
+  margin-top: -60px;
+  margin-left: 20px;
+}
+footer {
+  background-color: #f72d57;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  height: 197px;
+  gap: 179px;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  width: 882px;
+  text-align: left;
+  gap: 153px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 425px) {
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social {
+    position: relative;
+    top: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
