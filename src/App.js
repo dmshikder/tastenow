@@ -12,7 +12,7 @@ function App() {
     <HeroSection/>
     <Categories/>
     <AboutUs/>
-    <Footer/>
+    <Footer/> 
      
     </div>
   );

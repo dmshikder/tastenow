@@ -30,7 +30,7 @@ const Categories = () => {
   },[])
   return (
     <>
-      <h2>Our Popular Categories</h2>
+      <div ><h2 className="popular-category">Our Popular <span className="span">Categories</span></h2>
       <div className="category-tab-group">
         <p className="category-tab">
           <Pizzas />
@@ -76,7 +76,7 @@ const Categories = () => {
 
         }
       </Swiper>
-      </div>
+      </div></div>
     </>
   );
 };

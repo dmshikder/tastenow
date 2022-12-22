@@ -1,3 +1,6 @@
+.popular-category {
+  font-size: 48px;
+}
 .category-tab {
   background-color: #ffffff;
   width: 300px;
@@ -29,6 +32,8 @@
 .category-tab-group {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-left: 70px;
+  gap: 60px;
 }
 
 .category-card {
@@ -38,6 +43,7 @@
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   margin-bottom: 30px;
+  margin-left: 90px;
 }
 
 .item-name {

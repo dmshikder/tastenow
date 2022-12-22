@@ -1,3 +1,9 @@
+.container {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .about-us {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -6,12 +12,16 @@
   gap: 90px;
 }
 
+.about-text {
+  width: 512px;
+}
+
 .about-us > div > img {
   width: 581px;
   height: 387px;
 }
-.aboutUs-title {
-  text-align: left;
+.title {
+  margin-left: -920px;
   font-size: 48px;
 }
 .sub-title {
