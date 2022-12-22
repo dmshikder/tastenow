@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "price": "11,99",
+    "img": "https://i.ibb.co/yB3yHMP/pizza-2-1.png",
+    "name": "Pepperoni Pizza",
+    "description": "Di napoles",
+    "star": "5"
+  },
+  {
+    "id": "2",
+    "price": "11,99",
+    "img": "https://i.ibb.co/S7LqK4D/3-35083-pepperoni-pizza-slice-png-pepperoni-pizza-transparent-background-1.png",
+    "name": "Pepperoni Pizza",
+    "description": "Di napoles",
+    "star": "5"
+  },
+  {
+    "id": "3",
+    "price": "15,99",
+    "img": "https://i.ibb.co/yXfk83C/image-3.png",
+    "name": "Mediterranean Pizza",
+    "description": "Di napoles",
+    "star": "5"
+  },
+  {
+    "id": "4",
+    "price": "12,99",
+    "img": "https://i.ibb.co/D9V84xk/image-22-1.png",
+    "name": "Vegetarian Pizza",
+    "description": "Di napoles",
+    "star": "4"
+  },
+  {
+    "id": "5",
+    "price": "15,99",
+    "img": "https://i.ibb.co/yXfk83C/image-3.png",
+    "name": "Mediterranean Pizza",
+    "description": "Di napoles",
+    "star": "4"
+  }
+]
