@@ -20,7 +20,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-      <div className="about-us">
+      <div className="about-us-end">
       <div>
           <h3 className="sub-title">We are all in for the <span className="span ">enviroment</span></h3>
           <p className="about-text">

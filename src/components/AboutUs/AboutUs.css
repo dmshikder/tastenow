@@ -11,12 +11,23 @@
   text-align: justify;
   gap: 90px;
 }
+.about-us-end {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: justify;
+  gap: 90px;
+}
 
 .about-text {
   width: 512px;
 }
 
 .about-us > div > img {
+  width: 581px;
+  height: 387px;
+}
+.about-us-end > div > img {
   width: 581px;
   height: 387px;
 }
@@ -30,4 +41,57 @@
 
 .span {
   color: #f72d57;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-us {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: justify;
+    gap: 90px;
+    margin-top: 90px;
+  }
+  .about-us-end {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: justify;
+    gap: 90px;
+    margin-top: 90px;
+  }
+
+  .about-text {
+    width: 400px;
+  }
+
+  .about-us > div > img {
+    width: 400px;
+    height: 387px;
+  }
+  .about-us-end > div > img {
+    width: 400px;
+    height: 387px;
+  }
+  .title {
+    margin-left: 20px;
+    font-size: 48px;
+  }
+  .sub-title {
+    font-size: 36px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  .span {
+    color: #f72d57;
+  }
 }

@@ -7,14 +7,10 @@ import "./Categories.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-// import "./styles.css";
-
-// import required modules
 import { FreeMode, Pagination } from "swiper";
 import Badge from "../../Assets/SVG/Badge";
 
@@ -30,7 +26,7 @@ const Categories = () => {
   },[])
   return (
     <>
-      <div ><h2 className="popular-category">Our Popular <span className="span">Categories</span></h2>
+      <div><h2 className="popular-category">Our Popular <span className="span">Categories</span></h2>
       <div className="category-tab-group">
         <p className="category-tab">
           <Pizzas />
@@ -41,7 +37,7 @@ const Categories = () => {
           <span className="category-title">Burgers</span>
         </p>
         <p className="category-tab">
-          <Salads/>
+        <Salads/>
           <span className="category-title">Salads</span>
         </p>
         <p className="category-tab">
@@ -50,7 +46,7 @@ const Categories = () => {
         </p>
         
       </div>
-      <div>
+      <div className="cards">
       <Swiper
         slidesPerView={4}
         spaceBetween={0}
